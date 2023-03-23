@@ -15,6 +15,7 @@ namespace GestioneOrdini
         public Form1()
         {
             InitializeComponent();
+            //commento fatto da github
             label2.Text = "risultato della divisione";
         }
 
