@@ -32,7 +32,8 @@ namespace GestioneOrdini
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = ((int)comboBox1.SelectedItem / (int)comboBox2.SelectedItem).ToString();
+            var numero1 = (int)comboBox1.SelectedItem;
+            label1.Text = (numero1 / (int)comboBox2.SelectedItem).ToString();
         }
     }
 }
