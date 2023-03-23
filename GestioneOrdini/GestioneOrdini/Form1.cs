@@ -38,7 +38,7 @@ namespace GestioneOrdini
             var n2 = (int)comboBox2.SelectedItem;
             if (n2 == 0)
             {
-                MessageBox.Show("non è possibile dividere per 0");
+                MessageBox.Show("non è possibile dividere per 0!");
                 return;
             }
             label1.Text = (n1 / n2).ToString();
