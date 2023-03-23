@@ -15,6 +15,7 @@ namespace GestioneOrdini
         public Form1()
         {
             InitializeComponent();
+            label2.Text = "risultato della divisione";
         }
 
         private void Form1_Load(object sender, EventArgs e)
