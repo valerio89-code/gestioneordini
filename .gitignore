@@ -3,5 +3,5 @@
 ################################################################################
 
 /GestioneOrdini/.vs/GestioneOrdini
-/GestioneOrdini/GestioneOrdini/obj/Debug
-/GestioneOrdini/GestioneOrdini/bin/Debug
+/GestioneOrdini/GestioneOrdini/obj/*
+/GestioneOrdini/GestioneOrdini/bin/*
