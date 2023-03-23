@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GestioneOrdini/.vs/GestioneOrdini
+/GestioneOrdini/GestioneOrdini/obj/Debug
+/GestioneOrdini/GestioneOrdini/bin/Debug
