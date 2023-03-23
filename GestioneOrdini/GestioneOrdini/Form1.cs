@@ -32,7 +32,14 @@ namespace GestioneOrdini
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = ((int)comboBox1.SelectedItem / (int)comboBox2.SelectedItem).ToString();
+            var n1 = (int)comboBox1.SelectedItem;
+            var n2 = (int)comboBox2.SelectedItem;
+            if (n2 == 0)
+            {
+                MessageBox.Show("non è possibile dividere per 0");
+                return;
+            }
+            label1.Text = (n1 / n2).ToString();
         }
     }
 }
