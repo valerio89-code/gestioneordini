@@ -9,5 +9,6 @@ namespace GestioneOrdini
     delegate void test(string a);
     internal class ClasseA
     {
+        public event test MioTest;
     }
 }
