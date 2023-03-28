@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestioneOrdini
 {
+    delegate void test(string a);
     internal class ClasseA
     {
     }
