@@ -26,6 +26,8 @@ namespace GestioneOrdini
                 comboBox1.Items.Add(i);
             }
 
+
+
             for (int i = 0; i < 50; i++)
             {
                 comboBox2.Items.Add(i);
